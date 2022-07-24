@@ -115,9 +115,9 @@ class Proyecto extends \Elementor\Widget_Base {
 
 		$settings = $this->get_settings_for_display();
 
-	    echo '<h3>' . $settings['Periodo'] . '</h3>';
+	    echo '<h5>' . $settings['Periodo'] . '</h5>';
         echo '<h4>' . $settings['Titulo'] . '</h4>';
-        echo '<h5>' . $settings['Descripcion'] . '</h5>';
+        echo '<p>' . $settings['Descripcion'] . '</p>';
 	}
 
 	
